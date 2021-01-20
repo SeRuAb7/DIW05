@@ -4,16 +4,24 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--METADATOS PARA INFO SOBRE LA PAGINA A MOTORES DE BUSQUEDA-->
 	<meta name="description" content="tarea_DIW05">
 	<meta name="author" content="sergio">
+
 	<title>DIW05</title>
-		<link rel="stylesheet" href="css/main.css">
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<!--enlace a las librerias CSS BOOTSTRAP-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 
 <body>
+	<!--INICIO contenedor(div) 'principal' que ocupa el 100€ de la ventana-->
 	<div class="container-fluid">
+
+		<!--INICIO MENU-->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 
 			<div class="collapse navbar-collapse" id="id_reducir">
@@ -29,13 +37,16 @@
 				</ul>
 			</div>
 		</nav>
-
+		<!--FIN MENU-->
 		<hr>
-
+		<!--INICIO CAROUSEL-->
 		<div id="MiCarrusel" class="carousel slide" data-ride="carousel">
+			<!--INICIO GRUPO DE IMAGENES-->
 			<div class="carousel-inner">
+				<!--IMAGEN-->
 				<div class="carousel-item active">
 					<img src="https://via.placeholder.com/1200x400?text=PRIMERA+diapositiva" class="d-block w-100">
+					<!--INFORMACION DE LA IMAGEN-->
 					<div class="carousel-caption d-none d-md-block">
 						<h4> Ejemplo de título</h4>
 						<p>Diapositiva 1</p>
@@ -56,6 +67,9 @@
 					</div>
 				</div>
 			</div>
+			<!--FIN GRUPO DE IMAGENES-->
+
+			<!--CONTROLES PARA CAMBIAR DE IMAGEN-->
 			<a class="carousel-control-prev" href="#MiCarrusel" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
@@ -65,40 +79,117 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
+		<!--FIN CAROUSEL-->
+		<hr>
+		<div class="row">
+			<!----------------- INICIO ----------------->
+			<div class="col-5" id="inicio">
+				<div class="h3"> INICIO</div>
+				<div class="lead">INICIO</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN INICIO --------------->
+			<hr>
+			<!----------------- SOBRE MI ----------------->
+			<div class="col-7" id="sobremi">
+				<div class="h3"> SOBRE MI</div>
+				<div class="lead">SOBRE MI</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN SOBRE MI --------------->
+			<hr>
+			<!----------------- CUALIDADES ----------------->
+			<div class="col-4" id="cualidades">
+				<div class="h3"> CUALIDADES</div>
+				<div class="lead">CUALIDADES</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN CUALIDADES --------------->
+			<hr>
+			<!----------------- CURRICULUM ----------------->
+			<div class="col-8" id="curriculum">
+				<div class="h3"> CURRICULUM</div>
+				<div class="lead">CURRICULUM</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN CURRICULUM --------------->
+			<hr>
+			<!----------------- PREMIOS ----------------->
+			<div class="col-6" id="premios">
+				<div class="h3"> PREMIOS</div>
+				<div class="lead">PREMIOS</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN PREMIOS --------------->
+			<hr>
+			<!----------------- APTITUDES ----------------->
+			<div class="col-6" id="aptitudes">
+				<div class="h3">APTITUDES</div>
+				<div class="lead">APTITUDES</div>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+				<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+
+				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+
+				<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+
+				<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+			</div>
+			<!--------------- FIN APTITUDES --------------->
+			<hr>
+			<!----------------- CONTACTO ----------------->
+			<div class="col-12" id="contacto">
+				<div class="h3">CONTACTO</div>
+				<div class="lead">CONTACTO</div>
+				<!--FORMULARIO-->
+			</div>
+			<!--------------- FIN CONTACTO --------------->
+		</div>
 	</div>
-	<!----------------- INICIO ----------------->
+	<!--FIN DIV PRINICIPAL-->
 
-	<!--------------- FIN INICIO --------------->
-
-
-	<!----------------- SOBRE MI ----------------->
-
-	<!--------------- FIN SOBRE MI --------------->
-
-
-	<!----------------- CUALIDADES ----------------->
-
-	<!--------------- FIN CUALIDADES --------------->
-
-
-	<!----------------- CURRICULUM ----------------->
-
-	<!--------------- FIN CURRICULUM --------------->
-
-
-	<!----------------- PREMIOS ----------------->
-
-	<!--------------- FIN PREMIOS --------------->
-
-
-	<!----------------- APTITUDES ----------------->
-
-	<!--------------- FIN APTITUDES --------------->
-
-
-	<!----------------- CONTACTO ----------------->
-
-	<!--------------- FIN CONTACTO --------------->
+	<!-- librerias javascrip JQUERY Y BOOTSTRAP -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
