@@ -9,20 +9,18 @@
 	<meta name="author" content="sergio">
 
 	<title>DIW05</title>
-
+	<!--enlace al archivo CSS-->
 	<link rel="stylesheet" href="css/main.css">
 
 	<!--enlace a las librerias CSS BOOTSTRAP-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!---->
+	<!--enlace a las librerias de logos FONTAWESOM-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
-
 <body>
-	<!--INICIO contenedor(div) 'principal' que ocupa el 100€ de la ventana-->
+	<!--INICIO contenedor(div) 'principal'-->
 	<div class="main container">
-
 		<!--INICIO MENU-->
 		<nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
 			<div class="collapse navbar-collapse" id="id_reducir">
@@ -41,29 +39,35 @@
 		<hr>
 		<!--INICIO CAROUSEL-->
 		<div id="MiCarrusel" class="carousel slide" data-ride="carousel">
+			<!--Indicador con tantas lineas como imagenes -->
+			<ol class="carousel-indicators">
+				<li data-target="#MiCarrusel" data-slide-to="0" class="active"></li>
+				<li data-target="#MiCarrusel" data-slide-to="1"></li>
+				<li data-target="#MiCarrusel" data-slide-to="2"></li>
+			</ol>
 			<!--INICIO GRUPO DE IMAGENES-->
 			<div class="carousel-inner">
 				<!--IMAGEN-->
 				<div class="carousel-item active">
-					<img src="https://via.placeholder.com/1200x400?text=PRIMERA+diapositiva" class="d-block w-100">
+					<img src="img/computer-1209641_960_720_escalada.webp" class="d-block w-100">
 					<!--INFORMACION DE LA IMAGEN-->
-					<div class="carousel-caption d-none d-md-block">
-						<h4> Ejemplo de título</h4>
-						<p>Diapositiva 1</p>
+					<div class="carousel-caption d-none d-md-block ">
+						<h4>DESARROLLO WEB</h4>
+						<p>HTML CSS JAVASCRIPT PHP</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="https://via.placeholder.com/1200x400?text=SEGUNDA+diapositiva" class="d-block w-100">
+					<img src="img/design-1210160_960_720_escalada.jpg" class="d-block w-100">
 					<div class="carousel-caption d-none d-md-block">
-						<h4> Ejemplo de título</h4>
-						<p>Diapositiva 2</p>
+						<h4>DISEÑO WEB</h4>
+						<p>HTML CSS</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="https://via.placeholder.com/1200x400?text=TERCERA+diapositiva" class="d-block w-100">
-					<div class="carousel-caption d-none d-md-block">
-						<h4> Ejemplo de título</h4>
-						<p>Diapositiva 3</p>
+					<img src="img/cube-2110612_960_720_escalada.jpg" class="d-block w-100">
+					<div class="carousel-caption d-none d-md-block text-dark">
+						<h4>ÉTICA</h4>
+						<p>EN EL TRABAJO Y EN LA VIDA</p>
 					</div>
 				</div>
 			</div>
@@ -230,6 +234,7 @@
 					<div class="col-12 margbot">
 						<div class="lead">Si lo prefieres deja tus datos y contactaré lo antes posible:</div>
 						<br>
+						<!--Formulario responsive-->
 						<form class="border border-primary rounded">
 							<div class="form-group row">
 								<label for="nombre" class="form-control-label col-sm-1">Nombre:</label>
